@@ -1,0 +1,9 @@
+<div>
+  <h1>Tyson Angular Guide-book</h1>
+  <div *ngFor="let item of navigations">
+    <a
+    routerLink={{item.path}}
+    (click)="item.path === '' && samePageClick()">
+    {{item.name}}</a>
+  </div>
+</div>

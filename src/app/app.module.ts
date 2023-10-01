@@ -15,6 +15,11 @@ import { HeroSearchComponent } from './HeroPage/hero-search/hero-search.componen
 import { HeroDetailComponent } from './HeroPage/hero-detail/hero-detail.component';
 import { MessagesComponent } from './HeroPage/messages/messages.component';
 import { InMemoryDataService } from './in-memory-data.service';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { PokePageComponent } from './PokePage/poke-page/poke-page.component';
+import { PokeComponent } from './PokePage/poke/poke.component';
+import { HeroPageComponent } from './HeroPage/hero-page/hero-page.component';
 
 
 
@@ -38,7 +43,12 @@ import { InMemoryDataService } from './in-memory-data.service';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    HeaderComponent,
+    HomeComponent,
+    PokePageComponent,
+    PokeComponent,
+    HeroPageComponent
   ],
   bootstrap: [ AppComponent ]
 })
