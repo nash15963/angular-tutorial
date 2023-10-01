@@ -5,9 +5,10 @@ import { Observable, Subject } from 'rxjs';
 import {
    debounceTime, distinctUntilChanged, switchMap
  } from 'rxjs/operators';
+import { Hero } from '../interface/hero';
+import { HeroService } from '../service/hero.service';
 
-import { Hero } from '../hero';
-import { HeroService } from '../hero.service';
+
 
 @Component({
   selector: 'app-hero-search',
